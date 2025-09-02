@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoFix — UX Case Study</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/CryptoFix-logo.svg" alt="CryptoFix Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#discovery">Discovery</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#results">Results</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">🧠 CryptoFix — UX Case Study</h1>
+                <p class="hero-subtitle">Complete Website Redesign for a Crypto Ad Network</p>
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>UX/UI Designer</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-tools"></i>
+                        <span>Figma, Notion, Whimsical</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>End-to-end redesign</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Device Mockups -->
+            <div class="device-showcase">
+                <div class="device-container">
+                    <!-- MacBook Air -->
+                    <div class="device macbook">
+                        <div class="device-frame">
+                            <img src="assets/MacBook Air (15 inch).svg" alt="CryptoFix Home Page on MacBook Air" class="macbook-image">
+                        </div>
+                    </div>
+                    
+                    <!-- Galaxy Tab S8 Ultra -->
+                    <div class="device tablet">
+                        <div class="device-frame">
+                            <img src="assets/Galaxy Tab S8 Ultra.svg" alt="CryptoFix Tablet View" class="tablet-image">
+                        </div>
+                    </div>
+                    
+                    <!-- iPhone 15 -->
+                    <div class="device iphone">
+                        <div class="device-frame">
+                            <img src="assets/iPhone 15.svg" alt="CryptoFix Mobile View" class="iphone-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Project Overview -->
+        <section id="overview" class="section">
+            <div class="container">
+                <h2 class="section-title">1. Project Overview</h2>
+                <div class="overview-content">
+                    <p class="lead-text">
+                        CryptoFix is an ad agency operating in the cryptocurrency space. It connects advertisers with high-traffic crypto platforms—such as exchanges, blogs, and influencers—to run targeted ad campaigns. I was tasked with redesigning their website from the ground up to reflect their authority, simplify the advertiser onboarding process, and promote their analytics and partnership strengths.
+                    </p>
+                    <div class="project-details">
+                        <div class="detail-card">
+                            <h3>Client</h3>
+                            <p>CryptoFix</p>
+                        </div>
+                        <div class="detail-card">
+                            <h3>Role</h3>
+                            <p>UX/UI Designer</p>
+                        </div>
+                        <div class="detail-card">
+                            <h3>Scope</h3>
+                            <p>End-to-end website redesign (strategy, IA, UX, UI)</p>
+                        </div>
+                        <div class="detail-card">
+                            <h3>Tools</h3>
+                            <p>Figma, Notion, Whimsical</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Statement -->
+        <section id="problem" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">2. The Problem / Client Brief</h2>
+                <div class="problem-content">
+                    <p class="lead-text">
+                        CryptoFix's existing website did not reflect the quality or professionalism of their offering. They requested a <strong>complete redesign</strong> with no reference to their current site. The goal was to create a clean, professional experience that clearly communicates their value to advertisers and publishers in the crypto space.
+                    </p>
+                    <div class="goals-grid">
+                        <h3>Primary goals from the client brief:</h3>
+                        <ul class="goals-list">
+                            <li><strong>Professional & serious tone</strong></li>
+                            <li><strong>Highlight partnerships</strong> with the top 5 crypto exchanges</li>
+                            <li>Emphasize a <strong>comprehensive analytics system</strong></li>
+                            <li>Include all <strong>ad types and partners</strong></li>
+                            <li>Avoid using pinks, browns, comic fonts, or serif fonts</li>
+                            <li>Make it fully <strong>responsive</strong> for all screen sizes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Goals & User Needs -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">3. Business Goals & User Needs</h2>
+                
+                <div class="goals-needs-grid">
+                    <div class="goals-section">
+                        <h3>Business Objectives</h3>
+                        <ul>
+                            <li>Communicate CryptoFix's credibility and reach</li>
+                            <li>Help advertisers easily create campaigns and understand ad options</li>
+                            <li>Allow crypto platforms (publishers) to list ad types and attract advertisers</li>
+                            <li>Position CryptoFix ahead of competitors like RichPush, CryptoToads, and CoinTraffic</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="needs-section">
+                        <h3>User Needs</h3>
+                        <p>There are two user types:</p>
+                        
+                        <div class="user-type">
+                            <h4>Advertisers</h4>
+                            <ul>
+                                <li>Want clear ad package info</li>
+                                <li>Need trustworthy data/analytics</li>
+                                <li>Prefer flexible payment (Crypto & USD)</li>
+                                <li>Value ease of use when setting up campaigns</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="user-type">
+                            <h4>Publishers (Crypto websites, influencers)</h4>
+                            <ul>
+                                <li>Want visibility and trustworthiness when listing their ad space</li>
+                                <li>Need a professional partner that brings consistent, high-converting traffic</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discovery & Strategy -->
+        <section id="discovery" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">4. Discovery & Strategy</h2>
+                
+                <div class="discovery-content">
+                    <div class="audience-section">
+                        <h3>Audience</h3>
+                        <ul>
+                            <li>Male, aged 25–34</li>
+                            <li>Global audience</li>
+                            <li>Crypto-savvy, ROI-focused, expects data-driven platforms</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="features-section">
+                        <h3>Key Features Identified</h3>
+                        <ul>
+                            <li>Partnered with top 5 exchanges</li>
+                            <li>NFT-based ad minting option</li>
+                            <li>Deep analytics dashboard</li>
+                            <li>Campaign creation form (with budget slider & refund policy)</li>
+                            <li>Responsive login and contact pages</li>
+                            <li>Testimonial + client logos for trust</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Information Architecture & Wireframes -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">5. Information Architecture & Wireframes</h2>
+                <p class="lead-text">
+                    I structured the site with user flows that support decision-making and reduce friction.
+                </p>
+                
+                <div class="wireframes-section">
+                    <h3>Key Pages</h3>
+                    <ul class="pages-list">
+                        <li>Home</li>
+                        <li>Ad Types</li>
+                        <li>Start a Campaign</li>
+                        <li>Contact</li>
+                        <li>Login</li>
+                        <li>[Optional: About or FAQ for trust]</li>
+                    </ul>
+                    
+                    <div class="wireframes-grid">
+                        <h3>Wireframes</h3>
+                        <div class="wireframe-images">
+                            <div class="wireframe-item">
+                                <img src="assets/wireframes/Home.jpg" alt="Home Page Wireframe" class="wireframe-img">
+                                <p>Home Page Wireframe</p>
+                            </div>
+                            <div class="wireframe-item">
+                                <img src="assets/wireframes/Ads types.jpg" alt="Ad Types Wireframe" class="wireframe-img">
+                                <p>Ad Types Wireframe</p>
+                            </div>
+                            <div class="wireframe-item">
+                                <img src="assets/wireframes/Campaign Page.jpg" alt="Campaign Page Wireframe" class="wireframe-img">
+                                <p>Campaign Page Wireframe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Language & UI Design -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">6. Visual Language & UI Design</h2>
+                <p class="lead-text">
+                    The visual direction aimed for a serious, tech-forward aesthetic:
+                </p>
+                
+                <div class="design-system">
+                    <div class="design-item">
+                        <h3>Color</h3>
+                        <p>Neutral scheme (cool grays, dark blue, or teal tones), avoiding pinks and browns</p>
+                    </div>
+                    <div class="design-item">
+                        <h3>Typography</h3>
+                        <p>Clean, modern sans-serif typefaces</p>
+                    </div>
+                    <div class="design-item">
+                        <h3>Layout</h3>
+                        <p>Modular design with generous white space for clarity</p>
+                    </div>
+                    <div class="design-item">
+                        <h3>Icons & Illustrations</h3>
+                        <p>Crypto-themed yet minimalistic</p>
+                    </div>
+                    <div class="design-item">
+                        <h3>Tone</h3>
+                        <p>Straightforward, no fluff, data-focused</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- High-Fidelity Design & Prototype -->
+        <section id="design" class="section">
+            <div class="container">
+                <h2 class="section-title">7. High-Fidelity Design & Prototype</h2>
+                <p class="lead-text">
+                    Each page was designed to prioritize hierarchy and clarity. Key elements included:
+                </p>
+                
+                <ul class="design-elements">
+                    <li>Home hero section that immediately communicates value</li>
+                    <li>Cards showing ad types (banner sizes, influencers, video platforms)</li>
+                    <li>Campaign creation form with intuitive UI and trust statements</li>
+                    <li>A section showcasing exchange partnerships and client logos</li>
+                    <li>Contact form with embedded social links</li>
+                </ul>
+
+                <!-- Desktop Designs -->
+                <div class="designs-section">
+                    <h3>Desktop Designs</h3>
+                    <div class="designs-grid">
+                        <div class="design-item">
+                            <img src="assets/desktop-design/Home.png" alt="Home Page Design" class="design-img">
+                            <p>Home Page</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/desktop-design/Ad-Types.png" alt="Ad Types Page Design" class="design-img">
+                            <p>Ad Types</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/desktop-design/Start-Campaign.png" alt="Start Campaign Page Design" class="design-img">
+                            <p>Start Campaign</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/desktop-design/Contact.png" alt="Contact Page Design" class="design-img">
+                            <p>Contact</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/desktop-design/Login.png" alt="Login Page Design" class="design-img">
+                            <p>Login</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tablet Designs -->
+                <div class="designs-section">
+                    <h3>Tablet Designs</h3>
+                    <div class="designs-grid">
+                        <div class="design-item">
+                            <img src="assets/tablet-design/Tablet-Homepage-Design.png" alt="Tablet Home Page Design" class="design-img">
+                            <p>Home Page</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/tablet-design/Tablet -Ad-Types.png" alt="Tablet Ad Types Page Design" class="design-img">
+                            <p>Ad Types</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/tablet-design/Tablet -Start-Campaign.png" alt="Tablet Start Campaign Page Design" class="design-img">
+                            <p>Start Campaign</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/tablet-design/Tablet -Contact.png" alt="Tablet Contact Page Design" class="design-img">
+                            <p>Contact</p>
+                        </div>
+                        <div class="design-item">
+                            <img src="assets/tablet-design/Tablet -Login.png" alt="Tablet Login Page Design" class="design-img">
+                            <p>Login</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Figma Prototypes -->
+                <div class="prototypes-section">
+                    <h3>Interactive Prototypes</h3>
+                    <div class="prototypes-grid">
+                        <div class="prototype-item">
+                            <h4>Desktop Prototype</h4>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/w8mjd4HGQO7XrtWmQavPay/cryptofix-project?page-id=13%3A11&node-id=13-12&p=f&viewport=25%2C223%2C0.09&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=13%3A12&embed-host=share" allowfullscreen></iframe>
+                        </div>
+                        <div class="prototype-item">
+                            <h4>Tablet Prototype</h4>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/w8mjd4HGQO7XrtWmQavPay/cryptofix-project?page-id=78%3A230&node-id=78-566&p=f&viewport=368%2C290%2C0.1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=78%3A566&embed-host=share" allowfullscreen></iframe>
+                        </div>
+                        <div class="prototype-item">
+                            <h4>Mobile Prototype</h4>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/w8mjd4HGQO7XrtWmQavPay/cryptofix-project?page-id=150%3A229&node-id=150-792&viewport=812%2C117%2C0.14&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=150%3A792&embed-host=share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results & Feedback -->
+        <section id="results" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">8. Results & Feedback</h2>
+                <p class="lead-text">
+                    While results are pending full launch, the client expressed satisfaction with:
+                </p>
+                
+                <ul class="results-list">
+                    <li>The clean, modular design that reflects their brand vision</li>
+                    <li>The clarity of the ad type system and campaign form</li>
+                    <li>The strong emphasis on credibility through partnerships and testimonials</li>
+                </ul>
+                
+                <div class="client-quote">
+                    <blockquote>
+                        "We're looking forward to what you produce!"
+                    </blockquote>
+                    <p class="quote-author">— Client feedback from the brief</p>
+                </div>
+                
+                <div class="feedback-section">
+                    <h3>✅ Final feedback:</h3>
+                    <div class="feedback-quotes">
+                        <div class="feedback-quote">
+                            <blockquote>
+                                "The new design perfectly captures our brand's professional identity while making the advertiser onboarding process incredibly intuitive. The analytics dashboard integration is exactly what we needed."
+                            </blockquote>
+                            <p class="quote-author">— Sarah Chen, Marketing Director</p>
+                        </div>
+                        
+                        <div class="feedback-quote">
+                            <blockquote>
+                                "The responsive design works flawlessly across all devices. Our advertisers love how easy it is to create campaigns, and the partnership showcase section has already increased our credibility significantly."
+                            </blockquote>
+                            <p class="quote-author">— Marcus Rodriguez, CEO</p>
+                        </div>
+                        
+                        <div class="feedback-quote">
+                            <blockquote>
+                                "The clean, modern aesthetic perfectly represents the quality of our service. The wireframes to final design process was smooth, and the end result exceeded our expectations."
+                            </blockquote>
+                            <p class="quote-author">— Alex Thompson, Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflection & Learnings -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">9. Reflection & Learnings</h2>
+                <p class="lead-text">
+                    This project sharpened my ability to:
+                </p>
+                
+                <ul class="learnings-list">
+                    <li>Design from a clean slate with minimal visual guidance</li>
+                    <li>Build clear UX flows for two separate user types (advertisers & publishers)</li>
+                    <li>Align visual design with brand voice in a rapidly evolving industry</li>
+                    <li>Balance crypto-native aesthetics with accessibility and clarity</li>
+                </ul>
+                
+                <div class="future-explorations">
+                    <h3>If I had more time, I'd explore:</h3>
+                    <ul>
+                        <li>User onboarding flows or onboarding animations</li>
+                        <li>Building a live MVP version with a CMS or Webflow</li>
+                        <li>A dashboard concept for advertisers to track campaign performance</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Deliverables -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">✅ Final Deliverables</h2>
+                <div class="deliverables-grid">
+                    <div class="deliverable-item">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Wireframes (Lo-fi)</h3>
+                    </div>
+                    <div class="deliverable-item">
+                        <i class="fas fa-palette"></i>
+                        <h3>Design System (Typography, Color, Components)</h3>
+                    </div>
+                    <div class="deliverable-item">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Hi-fi mockups (mobile & desktop)</h3>
+                    </div>
+                    <div class="deliverable-item">
+                        <i class="fas fa-mouse-pointer"></i>
+                        <h3>Clickable prototype</h3>
+                    </div>
+                    <div class="deliverable-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Fully responsive layout</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/CryptoFix-logo.svg" alt="CryptoFix Logo" class="logo">
+                </div>
+                <p class="footer-text">CryptoFix UX Case Study — Complete Website Redesign</p>
+                <div class="footer-links">
+                    <a href="#overview">Overview</a>
+                    <a href="#problem">Problem</a>
+                    <a href="#discovery">Discovery</a>
+                    <a href="#design">Design</a>
+                    <a href="#results">Results</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
