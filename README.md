@@ -55,7 +55,7 @@ This case study documents the end-to-end redesign process for CryptoFix, an ad a
 5. **Information Architecture** - Wireframes and site structure
 6. **Visual Design** - Design system and visual language
 7. **High-Fidelity Designs** - Final mockups and prototypes
-8. **Results & Feedback** - Client feedback and outcomes
+8. **Results & Outcomes** - Project outcomes and deliverables
 9. **Reflection & Learnings** - Project insights and future considerations
 
 ## 🛠️ Technologies Used
